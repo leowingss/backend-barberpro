@@ -1,8 +1,8 @@
-# Back end Barber Pro
+# Back-end Barber Pro
 
 # Sobre o projeto
 
-Este projeto é um sistema back-end de uma pizzaria que permite controlar os pedidos.
+Este projeto é um sistema back-end de barbearia que registra os clientes detalhando o tipo de corte e o preço. No sistema também é possível registrar os tipos de cortes e tem opção de mudar para o Plano Premium utilizando Stripe como um sistema de pagamentos.
 
 
 # Tecnologias utilizadas 
@@ -18,13 +18,17 @@ Este projeto é um sistema back-end de uma pizzaria que permite controlar os ped
 Pré requisitos: Node.js, yarn
 
 ```bash 
-git clone https://github.com/leowingss/backend-pizzaria.git
+git clone https://github.com/leowingss/backend-barberpro.git
 
 # Entrar na pasta
-cd backend-pizzaria
+cd backend-barberpro
 
 # Instalar dependências
 yarn install
+
+ou
+
+npm install
 
 # Executar o projeto
 yarn dev
